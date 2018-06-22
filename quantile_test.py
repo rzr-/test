@@ -7,13 +7,14 @@ def plot_data (X, X_quantile, X_quantile_ref):
 	fig.subplots_adjust(wspace=0.6, hspace=0.35)
 
 	ax1 = fig.add_subplot(321, title="Signal", ).plot(X)
-	ax2 = fig.add_subplot(322, title="Signal after QT").plot(X_quantile)
-	ax3 = fig.add_subplot(323, title="Signal histogram").hist(X)
-	ax4 = fig.add_subplot(324, title="Signal histogram after QT").hist(X_quantile)
+	ax2 = fig.add_subplot(322, title="Signal's after QT").plot(X_quantile)
+	ax3 = fig.add_subplot(323, title="Signal's histogram").hist(X)
+	ax4 = fig.add_subplot(324, title="Signal's histogram after QT").hist(X_quantile)
 
 	#histogram of sample when bulk-transformed with other samples
-	ax6 = fig.add_subplot(326, title="Signal histogram in reference file").hist(X_quantile_ref)
+	ax6 = fig.add_subplot(326, title="Signal's histogram in reference file").hist(X_quantile_ref)
 	
+	fig.savefig('before_after.png', transparent=False)
 	plt.show()
 
 
