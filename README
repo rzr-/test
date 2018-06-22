@@ -4,6 +4,9 @@ http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.QuantileT
 Source: line 2139 (file: Class_QuantileTransformer.py)
 https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/preprocessing/data.py
 
+Quantile Normalization:
+https://davetang.org/muse/2014/07/07/quantile-normalisation-in-r/
+
 Quantile Functions paper:
 https://www2.cirano.qc.ca/~dufourj/Web_Site/ResE/Dufour_1995_C_Distribution_Quantile_W.pdf
 
